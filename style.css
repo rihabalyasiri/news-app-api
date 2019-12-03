@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    color:#eee;
+    background: rgba(0,0,0,.5);
+    padding: 10px 40px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding-right: 20px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    width: 80%;
+    margin: 100px auto;
+}
+
+img {
+    width:100%;
+}
+
+#content h2 {
+    font-size:20px;
+    color:#333;
+}
+
+#content p {
+    color:#555;
+    
+}

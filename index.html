@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>News API</title>
+</head>
+
+<body>
+    <header>
+        <h2>News by Super(code)</h2>
+        <nav>
+            <ul>
+                <li> <a href="#" onclick="newsByLanguage('de')">Deutsch</a></li>
+                <li><a href="#" onclick="newsByLanguage('fr')">French</a></li>
+                <li><a href="#" onclick="newsByLanguage('us')">English</a></li>
+                <li><a href="#" onclick="newsByLanguage('tr')">Türkisch</a></li>
+                <li><input type="search" name="" id="search"></li>
+                <li><input type="button" value="Search" onclick="suchen()"></li>
+        </nav>
+    </header>
+    <main id="content"></main>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
